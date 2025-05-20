@@ -32,3 +32,32 @@
    ```bash
    sudo systemctl restart sshd
    ```
+
+
+
+## File & Directory Permissions
+
+- Create /devops_workspace and a file project_notes.txt.
+
+```bash
+mkdir devops_workspace
+```
+
+```bash
+touch project_notes.txt.
+```
+Set permissions:
+
+```bash
+sudo chmod XXX file_name
+```
+- Owner can edit, group can read, others have no access.
+```bash
+chmod 640 project_notes.txt.
+```
+
+- Use ls -l to verify permissions.
+```bash
+la -l
+```
+
