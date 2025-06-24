@@ -61,3 +61,18 @@ chmod 640 project_notes.txt.
 la -l
 ```
 
+## Log File Analysis with AWK, Grep & Sed
+
+- Download the log file from the repository.
+Extract insights using commands:
+Use grep to find all occurrences of the word "error".
+
+ ```bash
+ grep -i "failure" Linux_2k.log 
+ ```
+- Use awk to extract timestamps and log levels.
+  
+ ```bash
+    
+ ```
+
